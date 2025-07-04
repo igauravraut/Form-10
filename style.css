@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #919191ec;
+}
+.container{
+    height: 400px;
+    width: 770px;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    box-shadow: 0 0px 10px black;
+    overflow: hidden;
+}
+.container .logo{
+    padding-right: 70px;
+}
+.container .logo span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(40deg);
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+.container .logo .yellow-square{
+    position: relative;
+    top: 130px;
+}
+.container .logo .yellow-square span{
+    transform: rotate(0deg);
+    margin-left: 0;
+    height: 45px;
+    width: 45px;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    background: rgb(255, 208, 0);
+    cursor: pointer;
+}
+.container .left-container{
+    height: 100%;
+    width: 390px;
+    padding-top: 30px;
+}
+.container .left-container .heading h1{
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.container .left-container .heading p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #525050;
+    width: 270px;
+}
+.container .left-container form{
+    width: 280px;
+}
+.container .left-container form .input-feilds{
+    margin-top: 25px;   
+}
+.container .left-container form .input-feilds input{
+    border: 0;
+    border-bottom: 2px solid rgb(201, 197, 197);
+    width: 100%;
+    padding-bottom: 6px;
+    outline: 0;
+    padding-right: 5px;
+    padding-left: 4px;
+}
+.container .left-container form .input-feilds input::placeholder{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 12px;
+}
+.container .left-container form .btn{
+    margin-top: 35px;
+}
+.container .left-container form .btn button{
+    width: 100%;
+    padding: 13px;
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2.9px;
+    font-size: 10px;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* right-container */
+
+.container .right-container{
+    width: 50%;
+}
+.container .right-container .yellow-right-rectangle{
+    background: rgb(255, 208, 0);
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.container .right-container .yellow-right-rectangle .icons{
+    height: 100%;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+.container .right-container .yellow-right-rectangle .icons i{
+    cursor: pointer;
+    font-size: 12px;
+}
+.container .right-container .black-square{
+    width: 300px;
+    height: 260px;
+    background-color: #171616;
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    padding: 20px 30px;
+}
+.container .right-container .black-square .yellow-small-box{
+    width: 30px;
+    height: 30px;
+    background: rgb(255, 208, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-20px) translateX(-20px);
+}
+.container .right-container .black-square h2{
+    font-size: 23px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.container .right-container .black-square .social-icons-container .social-icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    padding-bottom: 30px;
+    color: #afacac;
+}
